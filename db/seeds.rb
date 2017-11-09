@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Ingredient.delete_all
+Cocktail.delete_all
 
 20.times do
   Ingredient.create(name: Faker::Dessert.flavor)
